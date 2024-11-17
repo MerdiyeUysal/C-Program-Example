@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>  
+int main() {
+int num1,num2 ;
+float Avg ;
+   printf("Enter the first number: \n");
+   scanf("%d" , &num1);
+   
+   printf("Enter the second number: \n");
+   scanf("%d" , &num2);
+   
+   Avg=(num1 + num2)/2.0 ;
+   printf("Average: %.2f \n" , Avg);
+   
+   return 0;
+}

@@ -1,0 +1,18 @@
+int main() {
+    int price,rate;
+    float amount,VAT;
+    printf("Enter the price: \n");
+    scanf("%d" ,&price);
+    
+    printf("Enter the VAT rate:\n %%");
+    scanf("%d" ,&rate);
+    
+    VAT= price * rate/100 ;
+    amount= price + VAT ;
+   
+    printf("amount: %.2f " , amount);
+    printf("VAT: %.2f " ,   VAT);
+    
+     return 0;
+}
+    

@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>  
+int main() {
+float shortside, longside, area, perimeter ;
+     printf("How many meters is the shortest side of the rectangle? \n");
+     scanf("%f" ,&shortside);
+     
+    printf("How many meters is the longest side of the rectangle? \n");
+    scanf("%f" ,&longside);
+    
+    area = shortside * longside ;
+    perimeter= (longside + shortside) * 2 ;
+    printf("Area: %.4f" ,area);
+    printf("\n Perimeter: %.4f" ,perimeter);
+    
+    return 0;
+}

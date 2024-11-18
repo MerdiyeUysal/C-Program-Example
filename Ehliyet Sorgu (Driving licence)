@@ -1,23 +1,23 @@
 #include <iostream>
 
 int main(){
-    int age,kalan ;
+    int yas,kalan ;
     printf("Yaşınızı giriniz:");
-    scanf("%d" ,&age);
-       if (age<0){
+    scanf("%d" ,&yas);
+       if (yas<0){
            printf("Tekrar deneyin");
        }
-       else if (0<age && age<18){
-           kalan=18 - age ;
+       else if (0<yas && yas<18){
+           kalan=18 - yas ;
            printf("Ehliyet almanız için en az %d kadar yıl geçmeli.\n" , kalan);
        }
-       else if (18<=age && age<=50){
+       else if (18<=yas && yas<=50){
            printf("Ehliyet alabilirsiniz\n");
        }
-       else if (50<age && age<130){
+       else if (50<yas && yas<130){
            printf("Yaşınız gereği lütfen araba kullanmayınız :) \n");
        }
-       else if (age>130){
+       else if (yas>130){
            printf("Tekrar deneyin \n");
        }
 }

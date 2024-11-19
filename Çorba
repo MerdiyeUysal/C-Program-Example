@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main(){
+    int çorba;
+    printf("Ne çorbası içmek istersiniz:\n 
+      1-Mercimek çorbası\n 
+      2-Domates çorbası\n 
+      3-Ezogelin çorbası\n 
+      4-İşkembe çorbası\n 
+      5-Tarhana çorbası\n 
+      6-Yoğurt çorbası\n");
+    scanf("%d" ,&çorba);
+    switch(çorba) {
+    case 1:
+    printf("Mercimek Çorbası:\n 
+      Mercimeği bol suda yıkayıp süzün. Soğanı ve havucu doğrayın. Tencereye zeytinyağını alıp ısıtın. Doğradığınız soğanı kavurun. Üzerine unu ekleyip hafifçe kavurun.Kavrulan karışıma salçayı ekleyip biraz daha kavurun. Daha sonra mercimeği, havucu, tuz, karabiber ve kimyonu ekleyip karıştırın. Üzerini geçecek kadar sıcak su ekleyin.Mercimekler ve havuçlar yumuşayınca çorbayı blenderdan geçirin veya pürüzsüz olması için süzgeçten geçirin.Kısık ateşte birkaç dakika daha kaynattıktan sonra sıcak olarak servis yapın. İsterseniz üzerine pul biber ekleyebilirsiniz.Afiyet olsun :)");
+    break;
+    case 2:
+    printf("Domates Çorbası:\n 
+      Domatesleri haşlayıp kabuklarını soyun ve küp küp doğrayın. Soğanı ve sarımsağı da doğrayın. Havuç ve patatesi (eğer kullanacaksanız) küp küp doğrayın.Büyük bir tencerede zeytinyağını ısıtın. Soğanı ve sarımsağı kavurun. Sonra doğradığınız domatesleri, havucu ve patatesi ekleyip birkaç dakika daha kavurun.Üzerine unu ekleyip hafifçe kavurun. Daha sonra suyu ekleyip kaynamaya bırakın. Tuz ve karabiberi ekleyip kısık ateşte yaklaşık 20 dakika pişirin.Çorbayı blenderdan geçirin veya pürüzsüz olması için süzgeçten geçirin. Kısık ateşte birkaç dakika daha kaynattıktan sonra sıcak olarak servis yapın. Üzerine kuru nane, pul biber veya taze fesleğen ekleyebilirsiniz.Afiyet olsun :)");
+    break;
+    case 3:
+    printf("Ezogelin Çorbası:\n
+      Mercimeği ve bulguru yıkayıp suda bekletin. Soğanı ve sarımsağı doğrayın.Tencereye zeytinyağını alıp ısıtın. Doğradığınız soğanı kavurun. Üzerine salçayı ekleyip biraz daha kavurun.Suyu süzülen mercimek ve bulguru ekleyin. Üzerini geçecek kadar sıcak su ekleyin. Tuz, karabiber ve pul biberi ekleyip karıştırın.Kısık ateşte mercimekler ve bulgur yumuşayana kadar pişirin.Çorbayı blenderdan geçirin veya pürüzsüz olması için süzgeçten geçirin.Kısık ateşte birkaç dakika daha kaynattıktan sonra sıcak olarak servis yapın. Üzerine bol bol nane ekleyerek servis yapın.Afiyet olsun:)");
+    break;
+    case 4:
+    printf("İşkembe Çorbası:\n 
+      İşkembeleri temizleyip bol suda birkaç kez yıkayın. Daha sonra sirkeli suda bir süre bekletin. Bu işlemi kokusunu gidermek için yapıyoruz.Büyük bir tencereye işkembeleri ve suyunu alın. Üzerine doğranmış soğan, sarımsak ve tuz ekleyin. Tencerenin kapağını kapatıp işkembeler yumuşayana kadar pişirin. (Yaklaşık 1-1.5 saat)Ayrı bir kapta yumurta, yoğurt, limon suyu ve unu çırpın. Çırpma işlemi sırasında yavaş yavaş sıcak su ekleyerek terbiyenin kıvamını ayarlayın.Haşlanan işkembeleri tencereden alıp küçük parçalara ayırın. Tenceredeki suyu süzüp tekrar ocağa alın. Kaynamaya başlayınca hazırladığınız terbiyeyi yavaşça tencereye ekleyin. Kısık ateşte sürekli karıştırarak pişirin. Çorba kıvamına geldiğinde ocaktan alın.Sıcak olarak servis yapın. İsterseniz üzerine pul biber veya nane ekleyebilirsiniz.Afiyet olsun:)");
+    break;
+    case 5:
+    printf("Tarhana Çorbası:\n
+      Geniş bir tencereye tereyağı ve sıvı yağı alıp eritin. Üzerine salçayı ekleyip hafifçe kavurun. Tarhanayı tencereye ekleyip sürekli karıştırarak kavurun.Üzerine suyu ve ezilmiş sarımsağı ekleyip karıştırın. Tuz, karabiber ve pul biberi ekleyip karıştırın.Kısık ateşte sürekli karıştırarak çorba kıvamına gelene kadar pişirin.Kısık ateşte birkaç dakika daha kaynattıktan sonra sıcak olarak servis yapın. Üzerine kuru nane ekleyerek servis yapın.Afiyet olsun :)");
+    break;
+    case 6:
+    printf("Yoğurt Çorbası:\n 
+      Tencereye pirinç ve sıcak suyu ekleyip pirinçler yumuşayana kadar pişirin.Ayrı bir kapta yumurta sarısı, yoğurt ve unu iyice çırpın.Pişen pirinçten birkaç kepçe alarak yumurtalı karışıma ekleyip çırpmaya devam edin. Ardından bu karışımı yavaş yavaş tencereye ekleyip sürekli karıştırın.Kısık ateşte karıştırarak çorba kıvamına gelene kadar pişirin. Tuzunu ekleyip karıştırın.Sıcak olarak servis yapın. Üzerine kuru nane serpip servis edebilirsiniz.Afiyet olsun :)");
+    break;
+    default:
+    printf("Lütfen seçeneklerdeki çorbalardan birini seçiniz...");
+    break;
+    }
+    return 0;
+}

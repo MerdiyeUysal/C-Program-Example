@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+//   1 ile dışarıdan girilen bir N sayısına kadar olan tüm 5 e bölünebilen sayıların toplamını bulan bir C programı yazma
+int N,i,toplam=0;
+  printf("Bir sayı giriniz:\n");
+  scanf("%d",&N);
+    for(i=1; i<=N ;i++){
+       if (i%5==0){
+       toplam += i;
+       }
+     }
+     printf("Toplam: %d",toplam);
+   return 0;
+}

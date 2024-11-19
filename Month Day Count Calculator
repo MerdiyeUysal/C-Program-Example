@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main(){
    int month,year;
    printf("What month of the year is it?:\n");

@@ -1,13 +1,7 @@
 #include <stdio.h>
 int main(){
     int çorba;
-    printf("Ne çorbası içmek istersiniz:\n 
-      1-Mercimek çorbası\n 
-      2-Domates çorbası\n 
-      3-Ezogelin çorbası\n 
-      4-İşkembe çorbası\n 
-      5-Tarhana çorbası\n 
-      6-Yoğurt çorbası\n");
+    printf("Ne çorbası içmek istersiniz:\n 1-Mercimek çorbası\n 2-Domates çorbası\n 3-Ezogelin çorbası\n 4-İşkembe çorbası\n 5-Tarhana çorbası\n 6-Yoğurt çorbası\n");
     scanf("%d" ,&çorba);
     switch(çorba) {
     case 1:

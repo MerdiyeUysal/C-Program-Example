@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+ int N;
+ double sayac;
+ printf("Hangi sayının faktöriyelini bulmak istediğinizi girin:\n");
+ scanf("%d",&N);
+ sayac=1;
+    for(int i=1;i<=N;i++){
+        sayac = sayac * i ;
+    }
+    printf("%d!:%.0f" ,N,sayac);
+    return 0;
+}

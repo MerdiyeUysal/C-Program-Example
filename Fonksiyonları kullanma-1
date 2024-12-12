@@ -1,0 +1,25 @@
+#include <stdio.h>
+int EBOB(int sayi1,int sayi2){
+  int Ebob=1;
+   if(sayi1<sayi2){
+    for(int i=1;i<=sayi1;i++){
+        if(sayi1%i==0 && sayi2%i==0){
+            Ebob=i;
+        }
+    }
+   }
+   else{
+       for(int i=1;i<=sayi2;i++){
+           if(sayi1%i==0 && sayi2%i==0){
+               Ebob=i;
+           }
+       }
+   }
+   return Ebob;
+}
+int main(){
+    int sonuc;
+    sonuc=EBOB(18,24);
+   printf("%d",sonuc);
+   return 0;
+}

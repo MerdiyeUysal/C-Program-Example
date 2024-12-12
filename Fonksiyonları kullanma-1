@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int f(int n){
+   if(n==0){
+       return 1;
+   }
+    return n*f(n-1);
+    
+}
+int main(){
+    int n;
+    printf("Faktöriyelini almak istediğiniz sayıyı giriniz:\n");
+    scanf("%d",&n);
+    f(n);
+    int sonuc;
+    sonuc = f(n);
+    printf("%d",sonuc);
+    return 0;
+}

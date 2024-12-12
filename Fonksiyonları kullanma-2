@@ -1,0 +1,18 @@
+#include <stdio.h>
+int topla(int sayi1,int sayi2){
+    int toplam;
+    toplam = sayi1 + sayi2;
+    return toplam;
+}
+int main(){
+    int sayi1,sayi2;
+    printf("İlk sayıyı giriniz:\n");
+    scanf("%d",&sayi1);
+    printf("Diğer sayıyı giriniz:\n");
+    scanf("%d",&sayi2);
+    int sonuc;
+    sonuc = topla(sayi1,sayi2);
+    printf("%d",sonuc);
+    return 0;
+}
+    

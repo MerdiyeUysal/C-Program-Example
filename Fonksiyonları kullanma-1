@@ -18,8 +18,12 @@ int EBOB(int sayi1,int sayi2){
    return Ebob;
 }
 int main(){
-    int sonuc;
-    sonuc=EBOB(18,24);
-   printf("%d",sonuc);
+    int sonuc,sayi1,sayi2;
+    printf("İlk sayınızı giriniz:\n");
+    scanf("%d",&sayi1);
+    printf("İkinci sayınızı giriniz:\n");
+    scanf("%d",&sayi2);
+    sonuc=EBOB(sayi1,sayi2);
+   printf("Girdiğiniz iki sayının EBOB'u %d'dir.",sonuc);
    return 0;
 }

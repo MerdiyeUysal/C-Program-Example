@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+int sayi,maxsayi=0,minsayi=0,i=0;
+
+do{
+    printf("Sayi girin: ");
+    scanf("%d",&sayi);
+    if(sayi==0) break;
+    if(sayi<=minsayi) minsayi=sayi;
+    if(sayi>=maxsayi) maxsayi=sayi;
+    i++;
+}while(sayi !=0);
+printf("En büyük sayı:%d \n",maxsayi);
+printf("En küçük sayı:%d",minsayi);
+
+return 0;
+}

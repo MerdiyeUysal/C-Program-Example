@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+int taban;
+printf("Üçgeninizin tabanında kaç # olsun?\n");
+scanf("%d",&taban);
+    for(int i=1;i<=taban;i++){
+        for(int j=1;j<=i;j++){
+             printf("#");
+    }
+    printf("\n");
+    }
+return 0;
+}
